@@ -1,22 +1,20 @@
-# Paul's dotfiles
+# Guillermo's dotfiles
 
-[mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. go read it.
+[mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. So is [Paul's](https://github.com/paulirish/dotfiles/).
 
-This repo is mostly for me but you're welcome to make suggestions. Mathias's is the project to fork.  I'm mostly catching up to him, @cowboy, and @gf3.
+I go between a Mac and an Ubuntu machine every day, so my project focuses more on *nix-y stuff and less on OS X stuff. I'm also not doing the same sort of work @paulirish and @mathiasbynens do; consequently, I have different needs.
 
-## install the necessary apps
-
-My basic setup is captured in `install-deps.sh` which adds homebrew, z, nave, etc.
+Fork? Sure!
 
 ## private config
 
-Toss it into a file called `.extra` which you do not commit to this repo and just keep in your `~/`
+Toss it into a file called `.extra` which you do not commit to this repo and just keep in your `~/`. 
 
 I do something nice with my `PATH` there:
 
 ```shell
 # PATH like a bawss
-      PATH=/opt/local/bin
+PATH=/opt/local/bin
 PATH=$PATH:/opt/local/sbin
 PATH=$PATH:/bin
 PATH=$PATH:~/.rvm/bin
@@ -41,18 +39,8 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 ./.osx
 ```
 
-## Similar projects
-
-I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/master/.jshintrc) and [`.editorconfig`](http://editorconfig.org/) defined for all your projects.
-
-
-
-
-
 ## overview of files
-
 ####  Automatic config
-* `.ackrc` - for ack (better than grep)
 * `.vimrc`, `.vim` - vim config, obv.
 
 #### shell environment
@@ -65,7 +53,6 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 * `.extra` - not included, explained above
 
 #### manual run
-* `install-deps.sh` - random apps i need installed
 * `.osx` - run on a fresh osx machine
 * `.brew` - homebrew initialization
 
@@ -81,7 +68,5 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 ## Installation
 
 ```bash
-git clone https://github.com/paulirish/dotfiles.git && cd dotfiles && ./sync.sh
+git clone https://github.com/guillermoandrae/dotfiles.git && cd dotfiles && ./sync.sh
 ```
-
-To update later on, just run the sync again.
