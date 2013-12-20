@@ -1,8 +1,8 @@
 # Guillermo's dotfiles
 
-[mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. So is [Paul's](https://github.com/paulirish/dotfiles/).
+[Mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. So is [Paul's](https://github.com/paulirish/dotfiles/).
 
-I go between a Mac and an Ubuntu machine every day, so my project focuses more on *nix-y stuff and less on OS X stuff. I'm also not doing the same sort of work @paulirish and @mathiasbynens do; consequently, I have different needs.
+I go between a Mac and an Ubuntu machine every day, so my project focuses more on Unix-y stuff and less on OS X stuff. I'm also not doing the same sort of work @paulirish and @mathiasbynens do; consequently, I have different needs.
 
 Fork? Sure!
 
