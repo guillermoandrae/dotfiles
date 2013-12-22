@@ -10,7 +10,7 @@ Fork? If you really like my version, then sure. It might be better to fork [Math
 
 If there are more goodies you want to add that are highly personalized, add them to a file called `.extra` that should live in your home directory and keep that file out of version control. Mine's got some git configuration, a snippet from a poem, and a cheesy bit of inspiration for a quick smile when a new terminal is opened:
 
-```shell
+```bash
 # Git credentials
 # Not in the repository, to prevent people from accidentally committing under my name
 GIT_AUTHOR_NAME="Guillermo A. Fisher"
